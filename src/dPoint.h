@@ -1,8 +1,9 @@
 /****************************************************************
  * Project: HiDiMesher
  * Author: Julien Fausty
- * License:
+ * License: MITLicense
  * Date: 12/02/2017
+ * Class: dPoint
  * **************************************************************/
 
 

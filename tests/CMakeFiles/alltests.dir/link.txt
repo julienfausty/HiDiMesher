@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../lib/liballtests.a  CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/alltests.dir/RunAllTests.cpp.o CMakeFiles/alltests.dir/tests/TestdPointConstructor.cpp.o CMakeFiles/alltests.dir/tests/TestdPointDistance.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../lib/liballtests.a

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/dPoint.cpp
+dPoint.h
+/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/dPoint.h
+
+/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/dPoint.h
+vector
+-
+math.h
+-
+

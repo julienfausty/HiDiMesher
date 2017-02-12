@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/src.dir/dPoint.cpp.o"
+  "CMakeFiles/src.dir/dSimplex.cpp.o"
   "../lib/libsrc.pdb"
   "../lib/libsrc.a"
 )

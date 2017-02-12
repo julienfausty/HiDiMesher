@@ -3,8 +3,8 @@
 
 tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: ./src/dPoint.h
 tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: tests/RunAllTests.cpp
-tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: tests/tests/TestdPointConstructor.h
-tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: tests/tests/TestdPointDistance.h
+tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: tests/TestsdPoint/TestdPointConstructor.h
+tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: tests/TestsdPoint/TestdPointDistance.h
 tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: /usr/local/include/cpptest-assert.h
 tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: /usr/local/include/cpptest-collectoroutput.h
 tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o: /usr/local/include/cpptest-compileroutput.h

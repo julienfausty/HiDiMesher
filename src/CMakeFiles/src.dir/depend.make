@@ -4,3 +4,5 @@
 src/CMakeFiles/src.dir/dPoint.cpp.o: src/dPoint.cpp
 src/CMakeFiles/src.dir/dPoint.cpp.o: src/dPoint.h
 
+src/CMakeFiles/src.dir/dSimplex.cpp.o: src/dSimplex.cpp
+

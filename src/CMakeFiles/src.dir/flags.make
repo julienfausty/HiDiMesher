@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/julienfausty/workspace/personnalStuff/MeshingProject/./src 
+CXX_INCLUDES = -I/Users/julienfausty/workspace/personnalStuff/HiDiMesher/./src 
 

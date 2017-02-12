@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
-  "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/RunAllTests.cpp" "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/alltests.dir/RunAllTests.cpp.o"
-  "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointConstructor.cpp" "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/alltests.dir/tests/TestdPointConstructor.cpp.o"
-  "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointDistance.cpp" "/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/alltests.dir/tests/TestdPointDistance.cpp.o"
+  "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+  "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/RunAllTests.cpp" "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/alltests.dir/RunAllTests.cpp.o"
+  "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointConstructor.cpp" "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointConstructor.cpp.o"
+  "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointDistance.cpp" "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointDistance.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -16,7 +16,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "./src"
   "/usr/local/include"
   "src"
-  "tests/./tests"
+  "tests/./TestsdPoint"
+  "tests/./TestsdSimplex"
   )
 
 # Targets to which this target links.

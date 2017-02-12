@@ -11,9 +11,10 @@ include_directories (${CPPTESTDIR})
 
 include_directories (${PROJECT_BINARY_DIR}/src)
 
-# Include tests directory.
+# Include tests directories.
 
-include_directories (./tests)
+include_directories (./TestsdPoint)
+include_directories (./TestsdSimplex)
 
 # Make library of the tests.
 file (

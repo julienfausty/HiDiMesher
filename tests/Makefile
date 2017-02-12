@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.4.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/julienfausty/workspace/personnalStuff/MeshingProject
+CMAKE_SOURCE_DIR = /Users/julienfausty/workspace/personnalStuff/HiDiMesher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/julienfausty/workspace/personnalStuff/MeshingProject
+CMAKE_BINARY_DIR = /Users/julienfausty/workspace/personnalStuff/HiDiMesher
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(CMAKE_COMMAND) -E cmake_progress_start /Users/julienfausty/workspace/personnalStuff/MeshingProject/CMakeFiles /Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/progress.marks
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/julienfausty/workspace/personnalStuff/MeshingProject/CMakeFiles 0
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(CMAKE_COMMAND) -E cmake_progress_start /Users/julienfausty/workspace/personnalStuff/HiDiMesher/CMakeFiles /Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/progress.marks
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/julienfausty/workspace/personnalStuff/HiDiMesher/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/alltests.dir/rule:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/alltests.dir/rule
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/alltests.dir/rule
 .PHONY : tests/CMakeFiles/alltests.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ alltests: tests/CMakeFiles/alltests.dir/rule
 
 # fast build rule for target.
 alltests/fast:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/build
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/build
 .PHONY : alltests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/runTests.dir/rule:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/runTests.dir/rule
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/runTests.dir/rule
 .PHONY : tests/CMakeFiles/runTests.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ runTests: tests/CMakeFiles/runTests.dir/rule
 
 # fast build rule for target.
 runTests/fast:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/build
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/build
 .PHONY : runTests/fast
 
 CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
@@ -146,7 +146,7 @@ CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.4.0/CompilerId
 
 # target to build an object file
 CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 .PHONY : CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
 CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
@@ -155,7 +155,7 @@ CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.4.0/CompilerId
 
 # target to preprocess a source file
 CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 .PHONY : CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
 
 CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
@@ -164,7 +164,7 @@ CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.4.0/CompilerId
 
 # target to generate assembly for a file
 CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
 RunAllTests.o: RunAllTests.cpp.o
@@ -173,8 +173,8 @@ RunAllTests.o: RunAllTests.cpp.o
 
 # target to build an object file
 RunAllTests.cpp.o:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/RunAllTests.cpp.o
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/RunAllTests.cpp.o
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/RunAllTests.cpp.o
 .PHONY : RunAllTests.cpp.o
 
 RunAllTests.i: RunAllTests.cpp.i
@@ -183,8 +183,8 @@ RunAllTests.i: RunAllTests.cpp.i
 
 # target to preprocess a source file
 RunAllTests.cpp.i:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/RunAllTests.cpp.i
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/RunAllTests.cpp.i
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/RunAllTests.cpp.i
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/RunAllTests.cpp.i
 .PHONY : RunAllTests.cpp.i
 
 RunAllTests.s: RunAllTests.cpp.s
@@ -193,63 +193,63 @@ RunAllTests.s: RunAllTests.cpp.s
 
 # target to generate assembly for a file
 RunAllTests.cpp.s:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/RunAllTests.cpp.s
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/RunAllTests.cpp.s
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/RunAllTests.cpp.s
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/runTests.dir/build.make tests/CMakeFiles/runTests.dir/RunAllTests.cpp.s
 .PHONY : RunAllTests.cpp.s
 
-tests/TestdPointConstructor.o: tests/TestdPointConstructor.cpp.o
+TestsdPoint/TestdPointConstructor.o: TestsdPoint/TestdPointConstructor.cpp.o
 
-.PHONY : tests/TestdPointConstructor.o
-
-# target to build an object file
-tests/TestdPointConstructor.cpp.o:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/tests/TestdPointConstructor.cpp.o
-.PHONY : tests/TestdPointConstructor.cpp.o
-
-tests/TestdPointConstructor.i: tests/TestdPointConstructor.cpp.i
-
-.PHONY : tests/TestdPointConstructor.i
-
-# target to preprocess a source file
-tests/TestdPointConstructor.cpp.i:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/tests/TestdPointConstructor.cpp.i
-.PHONY : tests/TestdPointConstructor.cpp.i
-
-tests/TestdPointConstructor.s: tests/TestdPointConstructor.cpp.s
-
-.PHONY : tests/TestdPointConstructor.s
-
-# target to generate assembly for a file
-tests/TestdPointConstructor.cpp.s:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/tests/TestdPointConstructor.cpp.s
-.PHONY : tests/TestdPointConstructor.cpp.s
-
-tests/TestdPointDistance.o: tests/TestdPointDistance.cpp.o
-
-.PHONY : tests/TestdPointDistance.o
+.PHONY : TestsdPoint/TestdPointConstructor.o
 
 # target to build an object file
-tests/TestdPointDistance.cpp.o:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/tests/TestdPointDistance.cpp.o
-.PHONY : tests/TestdPointDistance.cpp.o
+TestsdPoint/TestdPointConstructor.cpp.o:
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointConstructor.cpp.o
+.PHONY : TestsdPoint/TestdPointConstructor.cpp.o
 
-tests/TestdPointDistance.i: tests/TestdPointDistance.cpp.i
+TestsdPoint/TestdPointConstructor.i: TestsdPoint/TestdPointConstructor.cpp.i
 
-.PHONY : tests/TestdPointDistance.i
+.PHONY : TestsdPoint/TestdPointConstructor.i
 
 # target to preprocess a source file
-tests/TestdPointDistance.cpp.i:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/tests/TestdPointDistance.cpp.i
-.PHONY : tests/TestdPointDistance.cpp.i
+TestsdPoint/TestdPointConstructor.cpp.i:
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointConstructor.cpp.i
+.PHONY : TestsdPoint/TestdPointConstructor.cpp.i
 
-tests/TestdPointDistance.s: tests/TestdPointDistance.cpp.s
+TestsdPoint/TestdPointConstructor.s: TestsdPoint/TestdPointConstructor.cpp.s
 
-.PHONY : tests/TestdPointDistance.s
+.PHONY : TestsdPoint/TestdPointConstructor.s
 
 # target to generate assembly for a file
-tests/TestdPointDistance.cpp.s:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/tests/TestdPointDistance.cpp.s
-.PHONY : tests/TestdPointDistance.cpp.s
+TestsdPoint/TestdPointConstructor.cpp.s:
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointConstructor.cpp.s
+.PHONY : TestsdPoint/TestdPointConstructor.cpp.s
+
+TestsdPoint/TestdPointDistance.o: TestsdPoint/TestdPointDistance.cpp.o
+
+.PHONY : TestsdPoint/TestdPointDistance.o
+
+# target to build an object file
+TestsdPoint/TestdPointDistance.cpp.o:
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointDistance.cpp.o
+.PHONY : TestsdPoint/TestdPointDistance.cpp.o
+
+TestsdPoint/TestdPointDistance.i: TestsdPoint/TestdPointDistance.cpp.i
+
+.PHONY : TestsdPoint/TestdPointDistance.i
+
+# target to preprocess a source file
+TestsdPoint/TestdPointDistance.cpp.i:
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointDistance.cpp.i
+.PHONY : TestsdPoint/TestdPointDistance.cpp.i
+
+TestsdPoint/TestdPointDistance.s: TestsdPoint/TestdPointDistance.cpp.s
+
+.PHONY : TestsdPoint/TestdPointDistance.s
+
+# target to generate assembly for a file
+TestsdPoint/TestdPointDistance.cpp.s:
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(MAKE) -f tests/CMakeFiles/alltests.dir/build.make tests/CMakeFiles/alltests.dir/TestsdPoint/TestdPointDistance.cpp.s
+.PHONY : TestsdPoint/TestdPointDistance.cpp.s
 
 # Help Target
 help:
@@ -267,12 +267,12 @@ help:
 	@echo "... RunAllTests.o"
 	@echo "... RunAllTests.i"
 	@echo "... RunAllTests.s"
-	@echo "... tests/TestdPointConstructor.o"
-	@echo "... tests/TestdPointConstructor.i"
-	@echo "... tests/TestdPointConstructor.s"
-	@echo "... tests/TestdPointDistance.o"
-	@echo "... tests/TestdPointDistance.i"
-	@echo "... tests/TestdPointDistance.s"
+	@echo "... TestsdPoint/TestdPointConstructor.o"
+	@echo "... TestsdPoint/TestdPointConstructor.i"
+	@echo "... TestsdPoint/TestdPointConstructor.s"
+	@echo "... TestsdPoint/TestdPointDistance.o"
+	@echo "... TestsdPoint/TestdPointDistance.i"
+	@echo "... TestsdPoint/TestdPointDistance.s"
 .PHONY : help
 
 
@@ -284,6 +284,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/julienfausty/workspace/personnalStuff/MeshingProject && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/julienfausty/workspace/personnalStuff/HiDiMesher && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

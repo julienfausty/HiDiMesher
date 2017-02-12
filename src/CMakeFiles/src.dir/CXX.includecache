@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/dPoint.cpp
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/src/dPoint.cpp
 dPoint.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/dPoint.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/src/dPoint.h
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/dPoint.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/src/dPoint.h
 vector
 -
 math.h
 -
+
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/src/dSimplex.cpp
 

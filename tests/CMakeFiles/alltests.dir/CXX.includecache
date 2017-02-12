@@ -12,39 +12,39 @@ vector
 math.h
 -
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/RunAllTests.cpp
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/RunAllTests.cpp
 cpptest.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/cpptest.h
-tests/TestdPointConstructor.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointConstructor.h
-tests/TestdPointDistance.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointDistance.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/cpptest.h
+TestsdPoint/TestdPointConstructor.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointConstructor.h
+TestsdPoint/TestdPointDistance.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointDistance.h
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointConstructor.cpp
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointConstructor.cpp
 TestdPointConstructor.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointConstructor.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointConstructor.h
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointConstructor.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointConstructor.h
 cpptest.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/cpptest.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/cpptest.h
 dPoint.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/dPoint.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/dPoint.h
 vector
 -
 iostream
 -
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointDistance.cpp
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointDistance.cpp
 TestdPointDistance.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointDistance.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointDistance.h
 
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/TestdPointDistance.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/TestdPointDistance.h
 cpptest.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/cpptest.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/cpptest.h
 dPoint.h
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/tests/dPoint.h
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/TestsdPoint/dPoint.h
 vector
 -
 iostream

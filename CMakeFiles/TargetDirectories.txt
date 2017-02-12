@@ -1,4 +1,4 @@
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/runTests.dir
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/CMakeFiles/driver.dir
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/CMakeFiles/alltests.dir
-/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/CMakeFiles/src.dir
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/runTests.dir
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/CMakeFiles/driver.dir
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/CMakeFiles/alltests.dir
+/Users/julienfausty/workspace/personnalStuff/HiDiMesher/src/CMakeFiles/src.dir

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/julienfausty/workspace/personnalStuff/MeshingProject
+# Install script for directory: /Users/julienfausty/workspace/personnalStuff/HiDiMesher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/julienfausty/workspace/personnalStuff/MeshingProject/src/cmake_install.cmake")
-  include("/Users/julienfausty/workspace/personnalStuff/MeshingProject/tests/cmake_install.cmake")
+  include("/Users/julienfausty/workspace/personnalStuff/HiDiMesher/src/cmake_install.cmake")
+  include("/Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests/cmake_install.cmake")
 
 endif()
 
@@ -42,5 +42,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/julienfausty/workspace/personnalStuff/MeshingProject/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/julienfausty/workspace/personnalStuff/HiDiMesher/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/julienfausty/workspace/personnalStuff/MeshingProject/tests
+# Install script for directory: /Users/julienfausty/workspace/personnalStuff/HiDiMesher/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

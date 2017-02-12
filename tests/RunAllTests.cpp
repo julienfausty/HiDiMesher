@@ -1,6 +1,6 @@
 #include "cpptest.h"
-#include "tests/TestdPointConstructor.h"
-#include "tests/TestdPointDistance.h"
+#include "TestsdPoint/TestdPointConstructor.h"
+#include "TestsdPoint/TestdPointDistance.h"
 
 int main(){
   Test::Suite ts;
